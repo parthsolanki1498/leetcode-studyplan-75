@@ -1,13 +1,9 @@
-import java.util.Scanner;
-
 public class MergeStringsAlternately {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String word1 = sc.next();
-        String word2 = sc.next();
-        sc.close();
+        String word1 = "abc";
+        String word2 = "def";
         String result = mergeAlternately(word1, word2);
-        System.out.println(result);
+        System.out.println("Result: " + result);
     }
 
     public static String mergeAlternately(String word1, String word2){
